@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/equipment-certification.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.industrial-waste-management]
+path = 'contracts/industrial-waste-management.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
